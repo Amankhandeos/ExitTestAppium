@@ -1,0 +1,5 @@
+ConfigProperties\DeviceCapabData.class
+ReusableMethods\TouchActionnn.class
+ConfigProperties\ExcelReader.class
+logging\ManageLog4j.class
+BaseClass\Base.class

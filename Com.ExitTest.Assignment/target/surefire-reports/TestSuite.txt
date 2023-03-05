@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 136.475 s <<< FAILURE! - in TestSuite
+Runner.RunnerTest.runScenario["Verifying the functionality named as Default layout animation", "LogTextbox option of API DEMOS app"](1)  Time elapsed: 24.867 s  <<< FAILURE!
+java.lang.NullPointerException
+
+Runner.RunnerTest.runScenario["Verify the Hide-show animation", "LogTextbox option of API DEMOS app"](2)  Time elapsed: 21.958 s  <<< FAILURE!
+java.lang.NullPointerException
+
+Runner.RunnerTest.runScenario["verify the allow from screen switch of accessbility is working", "verifying font size functionality is working properly"](3)  Time elapsed: 19.329 s  <<< FAILURE!
+java.lang.NullPointerException
+
+Runner.RunnerTest.runScenario["Verify App Option functionality", "verifying font size functionality is working properly"](4)  Time elapsed: 23.468 s  <<< FAILURE!
+java.lang.NullPointerException
+
+Runner.RunnerTest.runScenario["Verify App Option functionality", "verifying font size functionality is working properly"](5)  Time elapsed: 18.319 s  <<< FAILURE!
+java.lang.NullPointerException
+
+Runner.RunnerTest.runScenario["Verifying the functionality named as logTextbox", "Animation option of API DEMOS app"](6)  Time elapsed: 19.99 s  <<< FAILURE!
+java.lang.NullPointerException
+

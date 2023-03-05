@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T15:49:18 IST" name="Suite" finished-at="2023-03-04T15:51:28 IST" duration-ms="129662">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@548d708a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-04T15:49:18 IST" name="Test" finished-at="2023-03-04T15:51:28 IST" duration-ms="129662">
+      <class name="Runner.RunnerTest">
+        <test-method is-config="true" signature="startAppium()[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:49:13 IST" name="startAppium" finished-at="2023-03-04T15:49:18 IST" duration-ms="5233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:49:18 IST" name="setUpClass" finished-at="2023-03-04T15:49:19 IST" duration-ms="1095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@54c11750]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:49:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T15:49:44 IST" duration-ms="24447" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the functionality named as Default layout animation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["LogTextbox option of API DEMOS app"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Pages.AnimationPage.verify_Animation_actions(AnimationPage.java:26)
+at StepDefinitions.AnimationStep.api_demos_app_is_launched(AnimationStep.java:31)
+at ✽.Api Demos app is launched and animation option is visible(file:///C:/Users/amankhan/eclipse-workspace/Com.ExitTest.Assignment/src/test/java/Features/Animation.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:49:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T15:50:05 IST" duration-ms="20899" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Hide-show animation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["LogTextbox option of API DEMOS app"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Pages.AnimationPage.verify_Animation_actions(AnimationPage.java:26)
+at StepDefinitions.AnimationStep.api_demos_app_is_launched(AnimationStep.java:31)
+at ✽.Api Demos app is launched and animation option is visible(file:///C:/Users/amankhan/eclipse-workspace/Com.ExitTest.Assignment/src/test/java/Features/Animation.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:50:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T15:50:25 IST" duration-ms="20358" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify the allow from screen switch of accessbility is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verifying font size functionality is working properly"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Pages.AccessibilityPage.verify_ApiDemo_actions(AccessibilityPage.java:33)
+at StepDefinitions.AccessibilityStep.api_demos_app_is_launched(AccessibilityStep.java:33)
+at ✽.Api Demos app is launched(file:///C:/Users/amankhan/eclipse-workspace/Com.ExitTest.Assignment/src/test/java/Features/accessibility_appOption.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:50:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T15:50:46 IST" duration-ms="20396" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify App Option functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verifying font size functionality is working properly"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Pages.AccessibilityPage.verify_ApiDemo_actions(AccessibilityPage.java:33)
+at StepDefinitions.AccessibilityStep.api_demos_app_is_launched(AccessibilityStep.java:33)
+at ✽.Api Demos app is launched(file:///C:/Users/amankhan/eclipse-workspace/Com.ExitTest.Assignment/src/test/java/Features/accessibility_appOption.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:50:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T15:51:06 IST" duration-ms="20438" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify App Option functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verifying font size functionality is working properly"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Pages.AccessibilityPage.verify_ApiDemo_actions(AccessibilityPage.java:33)
+at StepDefinitions.AccessibilityStep.api_demos_app_is_launched(AccessibilityStep.java:33)
+at ✽.Api Demos app is launched(file:///C:/Users/amankhan/eclipse-workspace/Com.ExitTest.Assignment/src/test/java/Features/accessibility_appOption.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:51:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T15:51:26 IST" duration-ms="20285" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the functionality named as logTextbox"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Animation option of API DEMOS app"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Pages.AccessibilityPage.verify_ApiDemo_actions(AccessibilityPage.java:33)
+at StepDefinitions.AccessibilityStep.api_demos_app_is_launched(AccessibilityStep.java:33)
+at ✽.Api Demos app is launched(file:///C:/Users/amankhan/eclipse-workspace/Com.ExitTest.Assignment/src/test/java/Features/logTextbox.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:51:26 IST" name="tearDownClass" finished-at="2023-03-04T15:51:28 IST" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopAppium()[pri:0, instance:Runner.RunnerTest@548d708a]" started-at="2023-03-04T15:51:28 IST" name="stopAppium" finished-at="2023-03-04T15:51:28 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
+      </class> <!-- Runner.RunnerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

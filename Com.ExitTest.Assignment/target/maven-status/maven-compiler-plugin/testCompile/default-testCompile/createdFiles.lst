@@ -1,0 +1,12 @@
+Pages\appOptionPage.class
+Pages\LogTextBoxPage.class
+StepDefinitions\appOptionStep.class
+StepDefinitions\HideShowStep.class
+Runner\RunnerTest.class
+StepDefinitions\AccessibilityStep.class
+Pages\AccessibilityPage.class
+StepDefinitions\Hooks.class
+Pages\HideShowPage.class
+StepDefinitions\logTextboxStep.class
+Pages\AnimationPage.class
+StepDefinitions\AnimationStep.class

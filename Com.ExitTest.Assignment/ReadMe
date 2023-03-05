@@ -1,0 +1,51 @@
+      ---------------Introduction-----------------------------------
+      
+In this project testing of API DEMO app is done by using following Tools & Technologies -
+1.	Appium
+2.	TestNG
+3.	Maven
+4.	Java
+5.	Cucumber
+
+
+
+       --------------------Project Definition------------------------------
+       
+   Here we use concept of Page Object Model where Pages package contains locators and action
+performed on locators. Each Scenario in feature file have Step Definition file in StepDefinition
+package in which we write steps and each step file have a separated page file in Pages package
+where locators and actions are defined. RunnerTest class in Runner package is used to run all feature 
+file or any single scenario according to its definition. Hooks contains functions which need to run
+once in the whole process of test case or test class. Base class in BaseClass package contains functions
+which is used to call the driver and set the android capabilities to start a connection between android 
+app and java code. ConfigProperties package contains DeviceCapabilityData.properties file which hold the 
+andriod app capabilities to launch the app on appium server, it's data is read by DeviceCapabData.java 
+file, AppOptionTestData.xlsx contains value to be filled in textbox of App Option Scenario in feature file,
+this is read by ExcelReader.java.
+
+logging package contains logging methods, ReusableMethods package contains TouchActions and log4j2 in 
+src/main/resource contains configuration for logging file "MyLogs.log" in logs folder. extent.properties \
+file contains configuration for extent report which is available in ExtentReports folder. 
+
+pom.xml contains all the maven dependencies used in this project like java-client, cucumber-testng etc.
+
+
+
+
+        ------------------Run Test Through Runner Class----------------------
+        
+ Maven project Scenario will run through TestNG as the given tag definition in CucumberOptions of RunnerTest class.      
+
+
+
+
+         ------------------Run Test Through Command Line----------------------
+         
+ExitTest.bat is used to run the maven project through command line.
+
+
+
+
+        -------------------Run Test Through TestNG.xml------------------------
+        
+Simply go to testNG.xml file and run it through testNG suite.        
